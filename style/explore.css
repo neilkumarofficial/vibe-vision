@@ -1,0 +1,771 @@
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Light.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Light.ttf)
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-LightItalic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-LightItalic.ttf)
+      format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Regular.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Regular.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Italic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Italic.ttf)
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Medium.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Medium.ttf)
+      format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert-SemiMono;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-MediumItalic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-MediumItalic.ttf)
+      format("truetype");
+  font-weight: medium;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Bold.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-Bold.ttf)
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-BoldItalic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/Roobert-BoldItalic.ttf)
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roobert-SemiMono;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-Medium.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-Medium.ttf)
+      format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert-SemiMono;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-MediumItalic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-MediumItalic.ttf)
+      format("truetype");
+  font-weight: medium;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roobert-SemiMono;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-SemiBold.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-SemiBold.ttf)
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roobert-SemiMono;
+  src: url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-SemiBoldItalic.ttf)
+      format("truetype"),
+    url(https://cdn1.suno.ai/groove-assets/public/fonts/RoobertSemiMono-SemiBoldItalic.ttf)
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(
+    50% 50% at 22.19% 50%,
+    #0e0808 0,
+    #000 30%,
+    #1a1a1a 100%
+  );
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-Book.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-Italic.otf) format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-Medium.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-SemiBold.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(/fonts/PPNeueMontreal-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Editorial New;
+  src: url(/fonts/PPEditorialNew-Light.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Editorial New;
+  src: url(/fonts/PPEditorialNew-Regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PP Editorial New;
+  src: url(/fonts/PPEditorialNew-Italic.otf) format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-MediumItalic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Input Sans;
+  src: url(/fonts/InputSans-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+.diskContainer {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 1000px;
+}
+@keyframes rotateDisk {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes barScaleDramatic1 {
+  0%,
+  to {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+}
+@keyframes barScaleDramatic2 {
+  0%,
+  to {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.8);
+  }
+}
+@keyframes barScaleDramatic3 {
+  0%,
+  to {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2.2);
+  }
+}
+@keyframes barScaleDramatic4 {
+  0%,
+  to {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.9);
+  }
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  transform-origin: bottom;
+}
+.bar1 {
+  animation: barScaleDramatic1 0.8s ease-in-out infinite;
+}
+.bar2 {
+  animation: barScaleDramatic2 1s ease-in-out infinite;
+}
+.bar3 {
+  animation: barScaleDramatic3 0.7s ease-in-out infinite;
+}
+.bar4 {
+  animation: barScaleDramatic4 0.9s ease-in-out infinite;
+}
+.musicPlayerModal {
+  max-width: 400px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #252020;
+  padding: 34px;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+.musicPlayerHeader {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: Input Sans;
+  font-size: 14px;
+}
+.musicPlayerHeaderBeforeRoll {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: PP Editorial New;
+  font-weight: 200;
+  font-size: 20px;
+}
+.outerMusicPlayerControls {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 45px;
+  align-items: center;
+}
+.musicPlayerControls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.playPauseButton {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextSongButton,
+.prevSongButton {
+  border: 1px solid #e7e6e1;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.soundButton {
+  background-size: 70%;
+  background-color: "transparent";
+  color: #c9c8c4;
+}
+.diceButton,
+.soundButton {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+.diceButton {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Union.svg),
+    url(/auras/Aura-14.jpg) !important;
+  background-position: 50%;
+  background-size: 45%, cover;
+}
+.prevSongButton {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Previous.svg);
+}
+.nextSongButton {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Next.svg);
+}
+.diceButton {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Union.svg);
+}
+.soundButton {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Mute.svg);
+}
+.diceButton,
+.nextSongButton,
+.playPauseButton,
+.prevSongButton,
+.soundButton {
+  background-position: 50%;
+}
+.musicPlayerProgress {
+  width: 100%;
+  height: 5px;
+  background: hsla(0, 0%, 100%, 0.1);
+  position: relative;
+  border-radius: 2.5px;
+}
+.musicPlayerProgressBar {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2.5px;
+}
+.dotIndicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: -10px;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+.dot.active {
+  background-color: #ff44ec;
+}
+.hoverDot {
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+.HeaderBanner_headerBanner__GhvrF {
+  text-align: center;
+  text-wrap: wrap;
+  max-width: 400px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.HeaderBanner_headerText__hE5yA {
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+  font-family: PP Editorial New;
+  font-weight: 200;
+  color: #fff;
+  text-align: left;
+}
+.HeaderBanner_headerSubText__7QfgC {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: PP Neue Montreal;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.4);
+}
+@keyframes HeaderBanner_moveGradient__zCFiw {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0 50%;
+  }
+}
+.HeaderBanner_highlight__aBw2v {
+  background: linear-gradient(86deg, #da214a 7.36%, #8936f0 94.67%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  animation: HeaderBanner_moveGradient__zCFiw 3s linear infinite;
+}
+@keyframes LinkButton_moveGradient__xplM7 {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0 50%;
+  }
+}
+.LinkButton_linkButton__ci0l8 {
+  background-color: #252020;
+  color: #fff;
+  border-radius: 5px;
+  font-family: PP Neue Montreal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 30px;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  animation: LinkButton_moveGradient__xplM7 3s linear infinite;
+}
+.LinkButton_linkButton__ci0l8:hover {
+  background: url(/auras/Aura-14.jpg);
+  background-size: cover;
+  background-position: 50%;
+  color: #fff;
+}
+.musicPlayerModalMobile {
+  bottom: 0;
+  width: 300px;
+  max-width: 320px;
+  height: 90px;
+  padding: 10px;
+  background: #252020;
+  border-radius: 10px;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-clip: padding-box;
+}
+.musicPlayerModalMobile:before {
+  content: var(--before-content, "");
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  border-radius: 12px;
+}
+.outerMusicPlayerControlsMobile {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.musicPlayerControlsMobile {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.playPauseButtonMobile {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextSongButtonMobile,
+.prevSongButtonMobile {
+  border: 1px solid #e7e6e1;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.soundButtonMobile {
+  background-size: 70%;
+  background-color: "transparent";
+  color: #c9c8c4;
+}
+.diceButtonMobile,
+.soundButtonMobile {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+.diceButtonMobile {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Union.svg),
+    url(/auras/Aura-14.jpg) !important;
+  background-position: 50%;
+  background-size: 45%, cover;
+}
+.prevSongButtonMobile {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Previous.svg);
+}
+.nextSongButtonMobile {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Next.svg);
+}
+.diceButtonMobile {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Union.svg);
+}
+.soundButtonMobile {
+  background-image: url(https://cdn1.suno.ai/groove-assets/public/icons/Mute.svg);
+}
+.diceButtonMobile,
+.nextSongButtonMobile,
+.playPauseButtonMobile,
+.prevSongButtonMobile,
+.soundButtonMobile {
+  background-position: 50%;
+}
+.musicPlayerProgressMobile {
+  width: 100%;
+  height: 5px;
+  background: hsla(0, 0%, 100%, 0.1);
+  position: relative;
+  margin-top: 12px;
+  border-radius: 2.5px;
+}
+.musicPlayerProgressBarMobile {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2.5px;
+}
+.dotIndicatorsMobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.dotMobile {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 4px;
+}
+.dotMobile.active {
+  background-color: #ff44ec;
+}
+.hoverDotMobile {
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+.headerBannerMobile {
+  text-align: center;
+  background: linear-gradient(
+    0deg,
+    rgba(14, 8, 8, 0),
+    rgba(14, 8, 8, 0.8) 5%,
+    #0e0808 10%,
+    #0e0808 30%,
+    #0e0808 50%,
+    #0e0808 70%,
+    #0e0808 90%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.headerBannerMobile.collapsed {
+  height: 110px;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+.headerBannerMobile.collapsed .headerSubTextMobile,
+.headerBannerMobile.collapsed .headerTextMobile {
+  display: none;
+}
+.sunoButtonMobile {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin-bottom: 15px;
+}
+.sunoButtonMobile img {
+  height: auto;
+  width: 100px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+}
+.sunoButtonMobile:hover {
+  opacity: 0.8;
+}
+.headerTextMobile {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  font-family: PP Editorial New;
+  font-weight: 200;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.headerSubTextMobile {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.4);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.headerSubTextMobile,
+.linkButtonMobile {
+  font-size: 16px;
+  font-family: PP Neue Montreal;
+}
+.linkButtonMobile {
+  background-color: #252020;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 302px;
+  width: 302px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 9999;
+  animation: moveGradient 3s linear infinite;
+}
+.currentlyListeningMobile {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+  margin-top: 12px;
+  font-family: Input Sans;
+  font-weight: 300;
+  color: #fff;
+}
+@keyframes moveGradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0 50%;
+  }
+}
+.highlightMobile {
+  background: linear-gradient(86deg, #da214a 7.36%, #8936f0 94.67%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  animation: moveGradient 3s linear infinite;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: "transparent";
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 12px;
+  font-family: PP Editorial New;
+  margin-top: 40px;
+}
+.footer_link,
+.footer_text {
+  margin-right: 1rem;
+}
+.footer_link,
+.footer_link:hover {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.footer_link:hover {
+  text-decoration: underline;
+}
+@media screen and (max-height: 768px) {
+  .footer {
+    margin-top: 20px;
+  }
+}
+.page_logoContainer__S8bF9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 45px;
+  align-items: center;
+}
+.page_logoContainer__S8bF9 img {
+  width: 110px;
+  height: auto;
+}
+

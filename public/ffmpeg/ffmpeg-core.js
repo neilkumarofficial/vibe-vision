@@ -1,0 +1,1 @@
+// This is a placeholder. The actual FFmpeg core files need to be copied here.
